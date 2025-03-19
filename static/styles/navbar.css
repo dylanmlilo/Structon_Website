@@ -1,0 +1,104 @@
+.navbar {
+    height: 80px;
+    padding: 0px 0px 5px;
+    align-items: center;
+    background: rgba(176, 226, 255, 0.6);
+    border-bottom: 1px solid #175771;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: rgba(204, 236, 255, 0.5) !important; /* Solid dark background */
+    backdrop-filter: blur(20px); /* Glassmorphism effect */
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar .navbar-nav {
+    max-width: 60%;
+    margin: 0px auto;
+    border: 1px solid #175771;
+    border-radius: 20px; 
+}
+
+.navbar .navbar-nav.scrolled {
+    color: #ffffff!important;
+}
+
+.navbar .navbar-brand #logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+}
+
+.company_name {
+    font-weight: bold;
+}
+
+
+#offcanvasNavbar .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 1.05rem;
+    color: rgba(2, 31, 51, 0.9);
+    transition: all 0.3s;
+}
+
+#offcanvasNavbar .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    color: #476dbf !important;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: rgba(176, 226, 255, 0.6);
+}
+
+.offcanvas-header .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.offcanvas-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.offcanvas-header .btn-close {
+    margin-left: auto;
+}
+
+
+.get-in-touch {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.get-in-touch a {
+    display: inline-block;
+    background-color: #10528c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.get-in-touch a:hover {
+    background-color: #0c3b6e;
+    color: #ffffff;
+    transform: scale(1.05);
+}

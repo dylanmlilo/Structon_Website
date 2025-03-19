@@ -1,0 +1,5 @@
+.home-image-container {
+    width: 100%;
+    height: 700px;
+    background: url("../images/construction.jpg") center;
+}
