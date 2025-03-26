@@ -2,5 +2,73 @@
 
 
 {% block content %}
-<div class="home-image-container"></div>
+<section class="hero-section home-page">
+    <div class="hero-slider">
+      <!-- Slides will be added here by JavaScript -->
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="section-heading home-page-main-img">
+          <h1>Building the Future, One Project at a Time</h1>
+          <h3>Your trusted partner in civil engineering solutions</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <button class="slider-nav prev" aria-label="Previous image">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slider-nav next" aria-label="Next image">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+    <!-- Dots navigation -->
+    <div class="slider-dots"></div>
+</section>
+
+<!-- Capabilities Section -->
+<section id="capabilities" class="capabilities-section py-5">
+  <div class="container text-center">
+      <h2 class="section-title">Our Capabilities</h2>
+      <p class="lead mb-4">Delivering innovative and sustainable engineering solutions</p>
+      <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+              <div class="capability-card">
+                  <i class="fas fa-road"></i>
+                  <h3>Road & Highway Design</h3>
+                  <p>Expert solutions for safe and efficient road networks.</p>
+                  <!-- <a href="/road-design" class="btn btn-primary">Learn More</a> -->
+              </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+              <div class="capability-card">
+                  <i class="fas fa-water"></i>
+                  <h3>Water & Sewer Infrastructure</h3>
+                  <p>Innovative designs for water distribution and sanitation.</p>
+                  <!-- <a href="/water-sewer" class="btn btn-primary">Learn More</a> -->
+              </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+              <div class="capability-card">
+                  <i class="fas fa-building"></i>
+                  <h3>Structural Engineering</h3>
+                  <p>Reliable structural designs for buildings and bridges.</p>
+                  <!-- <a href="/structural-engineering" class="btn btn-primary">Learn More</a> -->
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section id="contact" class="cta-section py-5 bg-dark text-white">
+  <div class="container text-center">
+      <h2>Ready to Start Your Project?</h2>
+      <p class="lead mb-4">Contact us today for a free consultation</p>
+      <a href="/get-in-touch" class="btn btn-primary btn-lg">Get in Touch</a>
+  </div>
+</section>
+
 {% endblock %}
